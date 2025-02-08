@@ -1,1 +1,10 @@
 @import url('base.css');
+:root {
+  --jp-jupyter-icon-color:  #8C1515;
+  --jp-notebook-icon-color:  #8C1515;
+  --jp-json-icon-color:  #8C1515;
+}
+
+.jp-notebook-icon-color, .jp-icon-selectable{
+	color:#8C1515;
+}
