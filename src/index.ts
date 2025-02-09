@@ -15,4 +15,14 @@ const plugin: JupyterFrontEndPlugin<void> = {
   }
 };
 
+
+const content = new NistWidget();
+
+showDialog({
+            title: "Welcome to Carina",
+            body: content,
+            hasClose: false,
+            buttons: [Dialog.okButton()]
+          }).catch(e => console.log(e));
+
 export default plugin;
