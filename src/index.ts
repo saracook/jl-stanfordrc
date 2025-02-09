@@ -2,7 +2,8 @@ import {
   JupyterFrontEnd,
   JupyterFrontEndPlugin
 } from '@jupyterlab/application';
-
+import { showDialog, Dialog } from '@jupyterlab/apputils';
+import { NistWidget } from './widget';
 /**
  * Initialization data for the stanfordrc_theme extension.
  */
